@@ -1,0 +1,71 @@
+.logo{
+  padding: 24px 32px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo_wrap{
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+}
+.select_wrap{
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+.logo_wrap .logo_img{
+  width: 153px;
+  height: 40px;
+  cursor: pointer;
+}
+.select_wrap select{
+  width: 200px;
+}
+
+.select_wrap select, .select_wrap input{
+  border: 1px solid #E9EAF0;
+  color: 
+  #4E5566;
+  padding: 12px;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.avatar_wrap{
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+.avatar_wrap img{
+  cursor: pointer;
+}
+.avatar_wrap img:not(:last-child){
+  width: 24px;
+  height: 24px;
+}
+.avatar_wrap img:last-child{
+  width: 48px;
+  height: 48px;
+}
+.learn_search{
+  position: relative;
+}
+.learn_search img{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  left: 12px;
+}
+.learn_search input{
+  width: 424px;
+  padding-left: 50px;
+}
+.learn_search input::placeholder{
+  color: 
+  #8C94A3;
+}

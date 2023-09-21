@@ -1,0 +1,111 @@
+.course_cards{
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.course_cards h2{
+  color: #1D2026;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.form_wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form_wrap label{
+  display: flex;
+  flex-direction: column;
+  color: 
+  #6E7485;
+  font-size: 12px;
+  font-weight: 400;
+}
+.search_course{
+  position: relative;
+  width: 300px;
+}
+.search_course img{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 12px;
+  width: 24px;
+  height: 24px;
+}
+.search_course input{
+  width: 100%;
+  border: 1px solid 
+  #E9EAF0;
+  padding: 12px;
+  padding-left: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4E5566;
+  outline: none;
+  margin-top: 7px;
+}
+.search_course input::placeholder{
+  color: #8C94A3;
+}
+.form_wrap label select{
+  width: 200px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 12px;
+  color: #4E5566;
+  border: 1px solid 
+  #E9EAF0;
+  margin-top: 7px;
+}
+.cards{
+  margin-top: 45px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap: 24px;
+  column-gap: 16px;
+}
+.pagination_wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  margin-bottom: 70px;
+}
+.pagination_wrap button{
+color: 
+#1D2026;
+background-color: transparent;
+border: none;
+font-size: 14px;
+font-weight: 500;
+padding: 10px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.pagination_wrap button.active{
+  color: #FF6636;
+  background-color: 
+  #FFEEE8;
+  border-radius: 50%;
+  border: none;
+}
+.pagination_wrap button:hover{
+  background-color: 
+  #FF6636;
+  color: #fff;
+  
+}
+.pagination_wrap button:first-child, .pagination_wrap button:last-child{
+  background-color: 
+  #FFEEE8;
+}
+.pagination_wrap .left, .pagination_wrap .right{
+  width: 19px;
+  height: 19px;
+  object-fit: cover;
+}

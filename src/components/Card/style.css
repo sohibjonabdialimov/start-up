@@ -1,0 +1,41 @@
+.card_wrap{
+border: 1px solid #E9EAF0;
+}
+.card_wrap img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.card_content{
+  border-bottom: 1px solid #E9EAF0;
+  padding: 16px;
+}
+.card_div{
+  padding-bottom: 16px;
+}
+.card_content p{
+  font-size: 12px;
+  font-weight: 400;
+  color: 
+  #6E7485;
+  margin-bottom: 6px;
+}
+.card_content h4{
+  font-weight: 500;
+  font-size: 14px;
+  color: #1D2026;
+}
+.card_wrap button{
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 16px;
+  text-align: center;
+  padding: 8px 0;
+  color: 
+  #FF6636;
+  background-color: 
+  #FFEEE8;
+  border: none;
+  outline: none;
+}

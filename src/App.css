@@ -1,0 +1,20 @@
+.app{
+  width: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+  color: #1D2026;
+  max-width: 100%;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+button{
+  cursor: pointer;
+}
+img{
+  object-fit: cover;
+}
+select{
+  cursor: pointer;
+}

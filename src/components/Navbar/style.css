@@ -1,0 +1,35 @@
+.navbar {
+  padding: 0 32px;
+  background-color: #1d2026;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  list-style: none;
+}
+.navbar ul li{
+  padding: 16px;
+}
+.navbar ul li a{
+  color: #8c94a3;
+  font-size: 14px;
+  font-weight: 500;
+}
+.navbar ul li a.active{
+  color: #fff;
+}
+.selects{
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+.selects select{
+  color: #8c94a3;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
